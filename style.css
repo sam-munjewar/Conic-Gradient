@@ -1,0 +1,20 @@
+body{
+     background: #bbb;
+     margin:0;
+     padding:0;
+     }
+.chess-wrapper{
+  max-width:500px;
+  margin:0 auto;
+
+}
+.chess-board{
+      border-radius: 0;
+      background-image: conic-gradient(#FFF 0,#fff 90deg,black 90deg,black 180deg,#FFF 180deg,#FFF 270deg,black 270deg,black 360deg);
+	  background-size: 100px 100px;
+	  min-height: 400px;
+	  max-width: 400px;
+	  margin: 25px auto;
+	  transform:perspective(600px) rotateX(25deg);
+	  box-shadow:0 0 10px #696969;
+}
